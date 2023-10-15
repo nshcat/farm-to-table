@@ -1,14 +1,18 @@
 {
-	code: "sugar",
-	maxstacksize: 64,
-	attributes: {
-		inContainerTexture: { base: "morecrops:block/barrel/sugar" },
-		dissolveInWater: true
+	"code": "sugar",
+	"maxstacksize": 64,
+	"attributes": {
+		"inContainerTexture": { "base": "morecrops:block/barrel/sugar" },
+		"dissolveInWater": true
 	},
-	nutritionProps: {
-		satiety: 10, foodcategory: "Fruit"
+	"nutritionProps": {
+		"satiety": 10,
+		"foodcategory": "Fruit"
 	},
-	texture: { base: "morecrops:item/food/sugar" },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	materialDensity: 600
+	"texture": { "base": "morecrops:item/food/sugar" },
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"materialDensity": 600
 }

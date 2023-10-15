@@ -1,233 +1,403 @@
 {
-	code: "vegetable",
-	maxstacksize: 64,
-	variantgroups: [
-		{ code: "vegetable", states: ["beet", "cauliflower", "corn", "eggplant", "jalapeno", "potato", "yam"] },
+	"code": "vegetable",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{
+			"code": "vegetable",
+			"states": [ "beet", "cauliflower", "corn", "eggplant", "jalapeno", "potato", "yam" ]
+		}
 	],
-	attributesByType: {
+	"attributesByType": {
 		"*beet*": {
-			displaycaseable: true,
-			shelvable: true,
-			inContainerTexture: { base: "morecrops:block/barrel/raw-{vegetable}" },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-beet-partbaked"
+			"displaycaseable": true,
+			"shelvable": true,
+			"inContainerTexture": { "base": "morecrops:block/barrel/raw-{vegetable}" },
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "morecrops:cookedvegetable-{vegetable}-partbaked"
 			},
-			nutritionPropsWhenInMeal: {
-				satiety: 150, 
-				foodcategory: "Vegetable"
+			"nutritionPropsWhenInMeal": {
+				"satiety": 150,
+				"foodcategory": "Vegetable"
 			},
-			onDisplayTransform: {
-				translation: { x: 0.1, y: -0.4, z: 0.1 },
-				rotation: { x: 2, y: -47, z: -91 }
-			}
-		},
-		"*corn*": {
-			displaycaseable: true,
-			shelvable: true,
-			inContainerTexture: { base: "morecrops:block/barrel/raw-{vegetable}" },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-beet-partbaked"
-			},
-			nutritionPropsWhenInMeal: {
-				satiety: 150, 
-				foodcategory: "Vegetable"
+			"onDisplayTransform": {
+				"translation": {
+					"x": 0.1,
+					"y": -0.4,
+					"z": 0.1
+				},
+				"rotation": {
+					"x": 2,
+					"y": -47,
+					"z": -91
+				}
 			}
 		},
 		"*cauliflower*": {
-			displaycaseable: true,
-			shelvable: true,
-			inContainerTexture: { base: "morecrops:block/barrel/raw-{vegetable}" },
-			nutritionPropsWhenInMeal: {
-				satiety: 450, 
-				foodcategory: "Vegetable"
+			"displaycaseable": true,
+			"shelvable": true,
+			"inContainerTexture": { "base": "morecrops:block/barrel/raw-{vegetable}" },
+			"nutritionPropsWhenInMeal": {
+				"satiety": 450,
+				"foodcategory": "Vegetable"
 			},
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-{vegetable}-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "morecrops:cookedvegetable-{vegetable}-partbaked"
 			}
 		},
 		"*eggplant*": {
-			displaycaseable: true,
-			shelvable: true,
-			inContainerTexture: { base: "morecrops:block/barrel/raw-{vegetable}" },
-			nutritionPropsWhenInMeal: {
-				satiety: 150, 
-				foodcategory: "Fruit"
+			"displaycaseable": true,
+			"shelvable": true,
+			"inContainerTexture": { "base": "morecrops:block/barrel/raw-{vegetable}" },
+			"nutritionPropsWhenInMeal": {
+				"satiety": 150,
+				"foodcategory": "Fruit"
 			},
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-{vegetable}-partbaked"
-			},
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "morecrops:cookedvegetable-{vegetable}-partbaked"
+			}
 		},
 		"*": {
-			displaycaseable: true,
-			shelvable: true,
-			inContainerTexture: { base: "morecrops:block/barrel/raw-{vegetable}" },
-			nutritionPropsWhenInMeal: {
-				satiety: 150, 
-				foodcategory: "Vegetable"
+			"displaycaseable": true,
+			"shelvable": true,
+			"inContainerTexture": { "base": "morecrops:block/barrel/raw-{vegetable}" },
+			"nutritionPropsWhenInMeal": {
+				"satiety": 150,
+				"foodcategory": "Vegetable"
 			},
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-{vegetable}-partbaked"
-			},
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "morecrops:cookedvegetable-{vegetable}-partbaked"
+			}
 		}
 	},
-	
-	shape: {
-		base: "morecrops:item/crop/vegetable/{vegetable}"
+
+	"shape": {
+		"base": "morecrops:item/crop/vegetable/{vegetable}"
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	combustiblePropsByType: {
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"combustiblePropsByType": {
 		"@*-(beet|cauliflower|corn|eggplant|jalapeno|potato|yam)": {
-			meltingPoint: 150,
-			meltingDuration: 20,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "morecrops:cookedvegetable-{vegetable}-charred" },
-			requiresContainer: false
+			"meltingPoint": 150,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "morecrops:cookedvegetable-{vegetable}-charred"
+			},
+			"requiresContainer": false
 		}
 	},
-	nutritionPropsByType: {
-		"*-cauliflower": { satiety: 315, foodcategory: "Vegetable" },
-		"*-eggplant": { satiety: 100, foodcategory: "Fruit" },
-		"*": { satiety: 100, foodcategory: "Vegetable" },
-	},
-	transitionablePropsByType: {
-		"*": [{
-			type: "Perish",
-			freshHours: { avg: 504 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}]
-	},
-	guiTransformByType: {
-		"*-beet": {
-			rotation: { x: -37, y: 135, z: -144 },
-			origin: { x: 0.5, y: 0.32, z: 0.5 },
-			scale: 3.04
-		},
+	"nutritionPropsByType": {
 		"*-cauliflower": {
-			translation: { x: 2.5, y: 1, z: 0 },
-			rotation: { x: 137, y: 131, z: 0 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 2.6
-		},
-		"*-corn": {
-			rotation: { x: -37, y: 143, z: 131 },
-			origin: { x: 0.45, y: 0, z: 0.53 },
-			scale: 4.13
+			"satiety": 315,
+			"foodcategory": "Vegetable"
 		},
 		"*-eggplant": {
-			rotation: { x: -37, y: 135, z: -155 },
-			origin: { x: 0.56, y: 0.1, z: 0.42 },
-			scale: 3.6
+			"satiety": 100,
+			"foodcategory": "Fruit"
+		},
+		"*": {
+			"satiety": 100,
+			"foodcategory": "Vegetable"
+		}
+	},
+	"transitionablePropsByType": {
+		"*": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 504 },
+				"transitionHours": { "avg": 96 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 0.5
+			}
+		]
+	},
+	"guiTransformByType": {
+		"*-beet": {
+			"rotation": {
+				"x": -37,
+				"y": 135,
+				"z": -144
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.32,
+				"z": 0.5
+			},
+			"scale": 3.04
+		},
+		"*-cauliflower": {
+			"translation": {
+				"x": 2.5,
+				"y": 1,
+				"z": 0
+			},
+			"rotation": {
+				"x": 137,
+				"y": 131,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.2,
+				"z": 0.5
+			},
+			"scale": 2.6
+		},
+		"*-corn": {
+			"rotation": {
+				"x": -37,
+				"y": 143,
+				"z": 131
+			},
+			"origin": {
+				"x": 0.45,
+				"y": 0,
+				"z": 0.53
+			},
+			"scale": 4.13
+		},
+		"*-eggplant": {
+			"rotation": {
+				"x": -37,
+				"y": 135,
+				"z": -155
+			},
+			"origin": {
+				"x": 0.56,
+				"y": 0.1,
+				"z": 0.42
+			},
+			"scale": 3.6
 		},
 		"*-jalapeno": {
-			rotation: { x: -57, y: 125, z: -195 },
-			origin: { x: 0.49, y: 0.05, z: 0.48 },
-			scale: 4.85
+			"rotation": {
+				"x": -57,
+				"y": 125,
+				"z": -195
+			},
+			"origin": {
+				"x": 0.49,
+				"y": 0.05,
+				"z": 0.48
+			},
+			"scale": 4.85
 		},
 		"*-potato": {
-			rotation: { x: -37, y: 135, z: -155 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 5.35
+			"rotation": {
+				"x": -37,
+				"y": 135,
+				"z": -155
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 5.35
 		},
 		"*-yam": {
-			rotation: { x: -37, y: 135, z: -155 },
-			origin: { x: 0.56, y: 0.1, z: 0.42 },
-			scale: 5.35
+			"rotation": {
+				"x": -37,
+				"y": 135,
+				"z": -155
+			},
+			"origin": {
+				"x": 0.56,
+				"y": 0.1,
+				"z": 0.42
+			},
+			"scale": 5.35
 		}
 	},
-	fpHandTransformByType: {
+	"fpHandTransformByType": {
 		"*-cauliflower": {
-			rotation: { x: 51, y: 90, z: -30 },
-			scale: 1.9
+			"rotation": {
+				"x": 51,
+				"y": 90,
+				"z": -30
+			},
+			"scale": 1.9
 		},
 		"*-corn": {
-			rotation: { x: 40, y: -71, z: -8 },
-			origin: { x: 0.5, y: 0.15, z: 0.4 },
-			scale: 3.03
+			"rotation": {
+				"x": 40,
+				"y": -71,
+				"z": -8
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.15,
+				"z": 0.4
+			},
+			"scale": 3.03
 		},
 		"*-eggplant": {
-			rotation: { x: 45, y: 47, z: -30 },
-			origin: { x: 0.5, y: 0.3, z: 0.5 },
-			scale: 3
+			"rotation": {
+				"x": 45,
+				"y": 47,
+				"z": -30
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.3,
+				"z": 0.5
+			},
+			"scale": 3
 		},
 		"*": {
-			rotation: { x: 45, y: 47, z: -30 },
-			origin: { x: 0.5, y: 0.3, z: 0.5 },
-			scale: 1.9
+			"rotation": {
+				"x": 45,
+				"y": 47,
+				"z": -30
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.3,
+				"z": 0.5
+			},
+			"scale": 1.9
 		}
 
 	},
-	tpHandTransformByType: {
+	"tpHandTransformByType": {
 		"*-cauliflower": {
-			translation: { x: -0.7, y: -0.14, z: -0.6 },
-			rotation: { x: 1, y: -1, z: -31 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.79
+			"translation": {
+				"x": -0.7,
+				"y": -0.14,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": 1,
+				"y": -1,
+				"z": -31
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.79
 		},
 		"*-corn": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 1.2
+			"translation": {
+				"x": -0.6,
+				"y": -0.18,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": -42
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 1.2
 		},
 		"*-eggplant": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 1.2
+			"translation": {
+				"x": -0.6,
+				"y": -0.18,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": -42
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 1.2
 		},
 		"*": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": {
+				"x": -0.6,
+				"y": -0.18,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": -42
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.8
 		}
 	},
-	groundTransformByType: {
+	"groundTransformByType": {
 		"*-beet": {
-			rotation: { x: 90, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0.5, z: 0.7 },
-			scale: 3
+			"rotation": {
+				"x": 90,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.47,
+				"y": 0.5,
+				"z": 0.7
+			},
+			"scale": 3
 		},
 		"*-cauliflower": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 3.5
+			"origin": {
+				"x": 0.5,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 3.5
 		},
 		"*-corn": {
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 5
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 5
 		},
 		"*": {
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 4.3
 		}
 	},
-	materialDensity: 600
+	"materialDensity": 600
 }
