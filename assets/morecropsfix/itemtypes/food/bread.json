@@ -14,7 +14,7 @@
 			"states": [ "partbaked", "perfect", "charred" ]
 		}
 	],
-	"shape": { "base": "morecropsfix:item/food/bread/bread" },
+	"shape": { "base": "morecropsfix:item/food/Bread/" },
 	"texturesbytype": {
 		"*-partbaked": { "bread": { "base": "morecropsfix:item/food/grain/{type}bread-partbaked" } },
 		"*-perfect": { "bread": { "base": "morecropsfix:item/food/grain/{type}bread-perfect" } },
