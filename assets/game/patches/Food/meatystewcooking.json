@@ -5,17 +5,17 @@
 	"value": [
         {
           "type": "item",
-          "code": "morecrops:vegetable-*",
+          "code": "morecropsfix:vegetable-*",
           "shapeElement": "bowl/vegetable 1/*"
         },
 		{
           "type": "item",
-          "code": "morecrops:pickledvegetable-*",
+          "code": "morecropsfix:pickledvegetable-*",
           "shapeElement": "bowl/vegetable 1/*"
         },
 		{
           "type": "item",
-          "code": "morecrops:choppedvegetable-*",
+          "code": "morecropsfix:choppedvegetable-*",
           "shapeElement": "bowl/vegetable 1/*"
         }
       ],
@@ -28,17 +28,17 @@
 	"value": [
         {
           "type": "item",
-          "code": "morecrops:vegetable-*",
+          "code": "morecropsfix:vegetable-*",
           "shapeElement": "bowl/vegetable 2/*"
         },
 		{
           "type": "item",
-          "code": "morecrops:pickledvegetable-*",
+          "code": "morecropsfix:pickledvegetable-*",
           "shapeElement": "bowl/vegetable 2/*"
         },
 		{
           "type": "item",
-          "code": "morecrops:choppedvegetable-*",
+          "code": "morecropsfix:choppedvegetable-*",
           "shapeElement": "bowl/vegetable 2/*"
         }
       ],

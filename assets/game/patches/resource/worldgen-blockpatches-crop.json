@@ -3,11 +3,11 @@
     "op": "add",
     "path": "/-",
     "value": {
-      "comment": "Small patches of morecrops",
+      "comment": "Small patches of morecropsfix",
       "blockCodes": [
-        "morecrops:crop-potato-2",
-        "morecrops:crop-potato-4",
-        "morecrops:crop-potato-6"
+        "morecropsfix:crop-potato-2",
+        "morecropsfix:crop-potato-4",
+        "morecropsfix:crop-potato-6"
       ],
       "minTemp": 4,
       "maxTemp": 35,
@@ -28,9 +28,9 @@
     "value": {
       "comment": "Small patches of yams",
       "blockCodes": [
-        "morecrops:crop-yam-2",
-        "morecrops:crop-yam-4",
-        "morecrops:crop-yam-6"
+        "morecropsfix:crop-yam-2",
+        "morecropsfix:crop-yam-4",
+        "morecropsfix:crop-yam-6"
       ],
       "minTemp": 23,
       "maxTemp": 35,
@@ -51,9 +51,9 @@
     "value": {
       "comment": "Small patches of cauliflower",
       "blockCodes": [
-        "morecrops:crop-cauliflower-4",
-        "morecrops:crop-cauliflower-6",
-        "morecrops:crop-cauliflower-9"
+        "morecropsfix:crop-cauliflower-4",
+        "morecropsfix:crop-cauliflower-6",
+        "morecropsfix:crop-cauliflower-9"
       ],
       "minTemp": 7,
       "maxTemp": 29,
@@ -74,12 +74,12 @@
     "value": {
       "comment": "Small patches of corn",
       "blockCodes": [
-        "morecrops:crop-corn-3",
-        "morecrops:crop-corn-3",
-        "morecrops:crop-corn-4",
-        "morecrops:crop-corn-5",
-        "morecrops:crop-corn-6",
-        "morecrops:crop-corn-9"
+        "morecropsfix:crop-corn-3",
+        "morecropsfix:crop-corn-3",
+        "morecropsfix:crop-corn-4",
+        "morecropsfix:crop-corn-5",
+        "morecropsfix:crop-corn-6",
+        "morecropsfix:crop-corn-9"
       ],
       "minTemp": 3,
       "maxTemp": 32,
@@ -100,9 +100,9 @@
     "value": {
       "comment": "Small patches of beet",
       "blockCodes": [
-        "morecrops:crop-beet-2",
-        "morecrops:crop-beet-3",
-        "morecrops:crop-beet-5"
+        "morecropsfix:crop-beet-2",
+        "morecropsfix:crop-beet-3",
+        "morecropsfix:crop-beet-5"
       ],
       "minTemp": 10,
       "maxTemp": 26,
@@ -123,9 +123,9 @@
     "value": {
       "comment": "Small patches of eggplant",
       "blockCodes": [
-        "morecrops:crop-eggplant-2",
-        "morecrops:crop-eggplant-3",
-        "morecrops:crop-eggplant-6"
+        "morecropsfix:crop-eggplant-2",
+        "morecropsfix:crop-eggplant-3",
+        "morecropsfix:crop-eggplant-6"
       ],
       "minTemp": 25,
       "maxTemp": 36,
@@ -146,11 +146,11 @@
     "value": {
       "comment": "Small patches of jalapeño",
       "blockCodes": [
-        "morecrops:crop-jalapeno-3",
-        "morecrops:crop-jalapeno-3",
-        "morecrops:crop-jalapeno-4",
-        "morecrops:crop-jalapeno-5",
-        "morecrops:crop-jalapeno-6"
+        "morecropsfix:crop-jalapeno-3",
+        "morecropsfix:crop-jalapeno-3",
+        "morecropsfix:crop-jalapeno-4",
+        "morecropsfix:crop-jalapeno-5",
+        "morecropsfix:crop-jalapeno-6"
       ],
       "minTemp": 8,
       "maxTemp": 25,
@@ -171,10 +171,10 @@
     "value": {
       "comment": "Small patches of bellpepper",
       "blockCodes": [
-        "morecrops:crop-pepperbell-8",
-        "morecrops:crop-pepperbell-9",
-        "morecrops:crop-pepperbell-10",
-        "morecrops:crop-pepperbell-11"
+        "morecropsfix:crop-pepperbell-8",
+        "morecropsfix:crop-pepperbell-9",
+        "morecropsfix:crop-pepperbell-10",
+        "morecropsfix:crop-pepperbell-11"
       ],
       "minTemp": 8,
       "maxTemp": 25,
@@ -195,9 +195,9 @@
     "value": {
       "comment": "Small patches of sugarcane",
       "blockCodes": [
-        "morecrops:crop-sugarcane-4",
-        "morecrops:crop-sugarcane-6",
-        "morecrops:crop-sugarcane-8"
+        "morecropsfix:crop-sugarcane-4",
+        "morecropsfix:crop-sugarcane-6",
+        "morecropsfix:crop-sugarcane-8"
       ],
       "minTemp": 23,
       "maxTemp": 35,
@@ -218,9 +218,9 @@
     "value": {
       "comment": "Small patches of sugarbeets",
       "blockCodes": [
-        "morecrops:crop-sugarbeet-2",
-        "morecrops:crop-sugarbeet-3",
-        "morecrops:crop-sugarbeet-5"
+        "morecropsfix:crop-sugarbeet-2",
+        "morecropsfix:crop-sugarbeet-3",
+        "morecropsfix:crop-sugarbeet-5"
       ],
       "minTemp": 10,
       "maxTemp": 26,
@@ -241,9 +241,9 @@
     "value": {
       "comment": "Small patches of oat",
       "blockCodes": [
-        "morecrops:crop-oat-2",
-        "morecrops:crop-oat-3",
-        "morecrops:crop-oat-5"
+        "morecropsfix:crop-oat-2",
+        "morecropsfix:crop-oat-3",
+        "morecropsfix:crop-oat-5"
       ],
       "minTemp": 10,
       "maxTemp": 26,

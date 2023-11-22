@@ -1059,7 +1059,7 @@
     "op": "add",
     "path": "/texturesByType/*/beet",
     "value": {
-      "base": "morecrops:block/food/meal/beet"
+      "base": "morecropsfix:block/food/meal/beet"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -1067,7 +1067,7 @@
     "op": "add",
     "path": "/texturesByType/*/cauliflower",
     "value": {
-      "base": "morecrops:block/food/meal/cauliflower"
+      "base": "morecropsfix:block/food/meal/cauliflower"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -1075,7 +1075,7 @@
     "op": "add",
     "path": "/texturesByType/*/corn",
     "value": {
-      "base": "morecrops:block/food/meal/corn"
+      "base": "morecropsfix:block/food/meal/corn"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -1083,7 +1083,7 @@
     "op": "add",
     "path": "/texturesByType/*/jalapeno",
     "value": {
-      "base": "morecrops:block/food/meal/jalapeno"
+      "base": "morecropsfix:block/food/meal/jalapeno"
     },
     "file": "blocktypes/clay/pot.json"
   }

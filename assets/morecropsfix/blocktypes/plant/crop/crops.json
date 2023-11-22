@@ -1,0 +1,501 @@
+{
+  "code": "crop",
+  "class": "BlockCrop",
+  "behaviors": [ { "name": "Unstable" } ],
+  "variantgroups": [
+    {
+      "code": "vegetable",
+      "states": [ "beet", "cauliflower", "corn", "eggplant", "jalapeno", "oat", "pepperbell", "potato", "sugarbeet", "sugarcane", "yam" ]
+    },
+    {
+      "code": "stage",
+      "states": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ]
+    }
+  ],
+  "skipVariants": [
+    "crop-beet-6",
+    "crop-beet-7",
+    "crop-beet-8",
+    "crop-beet-9",
+    "crop-beet-10",
+    "crop-beet-11",
+    "crop-beet-12",
+    "crop-beet-13",
+    "crop-beet-14",
+    "crop-beet-15",
+    "crop-cauliflower-13",
+    "crop-cauliflower-14",
+    "crop-cauliflower-15",
+    "crop-corn-10",
+    "crop-corn-11",
+    "crop-corn-12",
+    "crop-corn-13",
+    "crop-corn-14",
+    "crop-corn-15",
+    "crop-eggplant-7",
+    "crop-eggplant-8",
+    "crop-eggplant-9",
+    "crop-eggplant-10",
+    "crop-eggplant-11",
+    "crop-eggplant-12",
+    "crop-eggplant-13",
+    "crop-eggplant-14",
+    "crop-eggplant-15",
+    "crop-jalapeno-9",
+    "crop-jalapeno-10",
+    "crop-jalapeno-11",
+    "crop-jalapeno-12",
+    "crop-jalapeno-13",
+    "crop-jalapeno-14",
+    "crop-jalapeno-15",
+    "crop-oat-8",
+    "crop-oat-9",
+    "crop-oat-10",
+    "crop-oat-11",
+    "crop-oat-12",
+    "crop-oat-13",
+    "crop-oat-14",
+    "crop-oat-15",
+    "crop-pepperbell-12",
+    "crop-pepperbell-13",
+    "crop-pepperbell-14",
+    "crop-pepperbell-15",
+    "crop-potato-8",
+    "crop-potato-9",
+    "crop-potato-10",
+    "crop-potato-11",
+    "crop-potato-12",
+    "crop-potato-13",
+    "crop-potato-14",
+    "crop-potato-15",
+    "crop-sugarbeet-6",
+    "crop-sugarbeet-7",
+    "crop-sugarbeet-8",
+    "crop-sugarbeet-9",
+    "crop-sugarbeet-10",
+    "crop-sugarbeet-11",
+    "crop-sugarbeet-12",
+    "crop-sugarbeet-13",
+    "crop-sugarbeet-14",
+    "crop-sugarbeet-15",
+    "crop-sugarcane-9",
+    "crop-sugarcane-10",
+    "crop-sugarcane-11",
+    "crop-sugarcane-12",
+    "crop-sugarcane-13",
+    "crop-sugarcane-14",
+    "crop-sugarcane-15",
+    "crop-yam-10",
+    "crop-yam-11",
+    "crop-yam-12",
+    "crop-yam-13",
+    "crop-yam-14",
+    "crop-yam-15"
+  ],
+  "creativeinventory": {
+    "general": [ "*" ],
+    "plants": [ "*" ]
+  },
+  "renderpass": "OpaqueNoCull",
+  "shapeByType": {
+    "*pepperbell-6": { "base": "block/plant/crop/bellpepper/bellpepper-6" },
+    "*pepperbell-7": { "base": "block/plant/crop/bellpepper/bellpepper-7" },
+    "*pepperbell-8": { "base": "block/plant/crop/bellpepper/bellpepper-8" },
+    "*pepperbell-9": { "base": "block/plant/crop/bellpepper/bellpepper-10" },
+    "*pepperbell-10": { "base": "block/plant/crop/bellpepper/bellpepper-10" },
+    "*pepperbell-11": { "base": "block/plant/crop/bellpepper/bellpepper-fullgrown" },
+    "*pepperbell*": { "base": "block/plant/crop/bellpepper/bellpepper-small" },
+    "*": { "base": "morecropsfix:block/plant/crop/{vegetable}/stage{stage}" }
+  },
+  "blockmaterial": "Plant",
+  "attributes": {
+    "butterflyFeedByType": {
+      "*": true
+    },
+    "beeFeedByType": {
+      "*": true
+    },
+    "sitHeight": 0.3,
+    "tickGrowthProbability": 0.05,
+    "handbook": {
+      "include": true
+    }
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "replaceable": 3000,
+  "lightAbsorption": 0,
+  "resistance": 0.5,
+  "soundsByType": {
+    "*": {
+      "place": "block/plant",
+      "break": "block/plant",
+      "hit": "block/plant"
+    }
+  },
+  "rainPermeable": false,
+  "dropsByType": {
+    "*beet-4": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-beet",
+        "quantity": { "avg": 0.99 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-beet",
+        "quantity": {
+          "avg": 2,
+          "var": 1
+        }
+      }
+    ],
+    "*beet-5": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-beet",
+        "quantity": { "avg": 1.1 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-beet",
+        "quantity": {
+          "avg": 6,
+          "var": 1
+        }
+      }
+    ],
+    "*cauliflower-11": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-cauliflower",
+        "quantity": { "avg": 0.99 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-cauliflower",
+        "quantity": {
+          "avg": 0.85,
+          "var": 0.1
+        }
+      }
+    ],
+    "*cauliflower-12": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-cauliflower",
+        "quantity": { "avg": 1.1 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-cauliflower",
+        "quantity": {
+          "avg": 2,
+          "var": 0
+        }
+      }
+    ],
+    "*corn-9": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-corn",
+        "quantity": { "avg": 1.1 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-corn",
+        "quantity": {
+          "avg": 11,
+          "var": 0
+        }
+      }
+    ],
+    "*eggplant-5": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-eggplant",
+        "quantity": { "avg": 0.99 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-eggplant",
+        "quantity": {
+          "avg": 2,
+          "var": 1
+        }
+      }
+    ],
+    "*eggplant-6": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-eggplant",
+        "quantity": { "avg": 1.1 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-eggplant",
+        "quantity": {
+          "avg": 6,
+          "var": 1
+        }
+      }
+    ],
+    "*jalapeno-8": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-jalapeno",
+        "quantity": { "avg": 1.1 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-jalapeno",
+        "quantity": {
+          "avg": 6,
+          "var": 1
+        }
+      }
+    ],
+    "*oat-7": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-oat",
+        "quantity": { "avg": 1.2 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:grain-oat",
+        "quantity": {
+          "avg": 12,
+          "var": 2
+        }
+      }
+    ],
+    "*pepperbell-10": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-pepperbell",
+        "quantity": { "avg": 1 }
+      }
+    ],
+    "*pepperbell-11": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-pepperbell",
+        "quantity": { "avg": 1.09 }
+      },
+      {
+        "type": "item",
+        "code": "game:vegetable-bellpepper",
+        "quantity": {
+          "avg": 6,
+          "var": 2
+        }
+      }
+    ],
+    "*potato-6": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-potato",
+        "quantity": { "avg": 0.99 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-potato",
+        "quantity": {
+          "avg": 1.5,
+          "var": 0.5
+        }
+      }
+    ],
+    "*potato-7": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-potato",
+        "quantity": { "avg": 1.1 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-potato",
+        "quantity": {
+          "avg": 6,
+          "var": 1
+        }
+      }
+    ],
+    "*sugarbeet-4": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-sugarbeet",
+        "quantity": { "avg": 0.99 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:resourcecrop-sugarbeet",
+        "quantity": {
+          "avg": 2,
+          "var": 1
+        }
+      }
+    ],
+    "*sugarbeet-5": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-sugarbeet",
+        "quantity": { "avg": 1.1 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:resourcecrop-sugarbeet",
+        "quantity": {
+          "avg": 6,
+          "var": 1
+        }
+      }
+    ],
+    "*sugarcane-8": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-sugarcane",
+        "quantity": { "avg": 1.2 }
+      },
+      {
+        "type": "block",
+        "code": "morecropsfix:sugarcane",
+        "quantity": { "avg": 8 }
+      }
+    ],
+    "*yam-8": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-yam",
+        "quantity": { "avg": 0.99 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-yam",
+        "quantity": {
+          "avg": 1.5,
+          "var": 0.5
+        }
+      }
+    ],
+    "*yam-9": [
+      {
+        "type": "item",
+        "code": "morecropsfix:seeds-yam",
+        "quantity": { "avg": 1.1 }
+      },
+      {
+        "type": "item",
+        "code": "morecropsfix:vegetable-yam",
+        "quantity": {
+          "avg": 6,
+          "var": 1
+        }
+      }
+    ]
+  },
+  "cropPropsByType": {
+    "*beet*": {
+      "requiredNutrient": "P",
+      "nutrientConsumption": 31,
+      "growthStages": 5,
+      "totalGrowthDays": 6,
+      "heatDamageAbove": 27
+    },
+    "*cauliflower*": {
+      "requiredNutrient": "N",
+      "nutrientConsumption": 40,
+      "growthStages": 12,
+      "totalGrowthDays": 13,
+      "heatDamageAbove": 25
+    },
+    "*corn*": {
+      "requiredNutrient": "N",
+      "nutrientConsumption": 35,
+      "growthStages": 9,
+      "totalGrowthDays": 10,
+      "heatDamageAbove": 35
+    },
+    "*eggplant*": {
+      "requiredNutrient": "P",
+      "nutrientConsumption": 32,
+      "growthStages": 6,
+      "totalGrowthDays": 10,
+      "coldDamageBelow": 15,
+      "heatDamageAbove": 35
+    },
+    "*jalapeno*": {
+      "requiredNutrient": "N",
+      "nutrientConsumption": 20,
+      "growthStages": 8,
+      "totalGrowthDays": 8,
+      "coldDamageBelow": 5,
+      "heatDamageAbove": 35
+    },
+    "*oat*": {
+      "requiredNutrient": "N",
+      "nutrientConsumption": 40,
+      "growthStages": 7,
+      "totalGrowthMonths": 2.0
+    },
+    "*pepperbell*": {
+      "requiredNutrient": "N",
+      "nutrientConsumption": 20,
+      "growthStages": 11,
+      "totalGrowthDays": 8,
+      "heatDamageAbove": 35,
+      "coldDamageBelow": 5
+    },
+    "*potato*": {
+      "requiredNutrient": "N",
+      "nutrientConsumption": 35,
+      "growthStages": 7,
+      "totalGrowthDays": 8,
+      "coldDamageBelow": 4,
+      "heatDamageAbove": 35
+    },
+    "*sugarbeet*": {
+      "requiredNutrient": "P",
+      "nutrientConsumption": 31,
+      "growthStages": 5,
+      "totalGrowthDays": 6,
+      "coldDamageBelow": -2,
+      "heatDamageAbove": 30
+    },
+    "*sugarcane*": {
+      "requiredNutrient": "N",
+      "nutrientConsumption": 35,
+      "growthStages": 8,
+      "totalGrowthDays": 10,
+      "coldDamageBelow": 10,
+      "heatDamageAbove": 45
+    },
+    "*yam*": {
+      "requiredNutrient": "N",
+      "nutrientConsumption": 30,
+      "growthStages": 9,
+      "totalGrowthDays": 8,
+      "coldDamageBelow": 15,
+      "heatDamageAbove": 37
+    }
+  },
+  "collisionbox": null,
+  "selectionbox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 0.25,
+    "z2": 0.9375
+  },
+  "materialDensity": 200,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
+  }
+}

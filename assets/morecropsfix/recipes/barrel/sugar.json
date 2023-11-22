@@ -1,0 +1,27 @@
+[
+	{
+		code: "bagassecompost",
+		sealHours: 240,
+		ingredients: [
+			{ type: "item", code: "morecropsfix:bagasse",  quantity: 4 },
+			{ type: "item", code: "game:waterportion",  litres: 1, consumeLitres: 1 },
+		],
+		output: { type: "item", code: "morecropsfix:compost-bagasse", quantity: 1 }
+	},
+	{
+		code: "canesugar",
+		sealHours: 240,
+		ingredients: [
+			{ type: "item", code: "morecropsfix:sugarcanesyrup",  litres: 1}
+		],
+		output: { type: "item", code: "morecropsfix:sugar", quantity: 10 }
+	},
+	{
+		code: "beetsugar",
+		sealHours: 240,
+		ingredients: [
+			{ type: "item", code: "morecropsfix:sugarbeetsyrup",  litres: 1}
+		],
+		output: { type: "item", code: "morecropsfix:sugar", quantity: 10 }
+	}
+]

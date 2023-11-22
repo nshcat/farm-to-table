@@ -5,7 +5,7 @@
 	"value": [
         {
           "type": "item",
-          "code": "morecrops:grain-*",
+          "code": "morecropsfix:grain-*",
           "shapeElement": "bowl/grain 1/*"
         }
       ],

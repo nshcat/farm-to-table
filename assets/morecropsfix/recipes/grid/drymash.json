@@ -1,0 +1,38 @@
+[  
+	{
+		"ingredientPattern": "K,V",
+		recipeGroup: 1,
+		"ingredients": {
+		  "K": {
+			type: "item",
+			code: "game:knife-*",
+			isTool: true
+		  },
+		  "V": {
+			type: "item",
+			code: "morecropsfix:pressedmashcane",
+		  }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { type: "item", code: "morecropsfix:bagasse", quantity: 4 }
+	},
+	{
+		"ingredientPattern": "K,V",
+		recipeGroup: 1,
+		"ingredients": {
+		  "K": {
+			type: "item",
+			code: "game:knife-*",
+			isTool: true
+		  },
+		  "V": {
+			type: "item",
+			code: "morecropsfix:pressedmashbeet",
+		  }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { type: "item", code: "morecropsfix:sugarbeetcut", quantity: 4 }
+	}
+]

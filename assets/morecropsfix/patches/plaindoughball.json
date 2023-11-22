@@ -1,0 +1,71 @@
+[
+  {
+    "file": "morecropsfix:recipes/kneading/doughball.json",
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecropsfix:recipes/kneading/doughball.json",
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecropsfix:recipes/kneading/doughball.json",
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecropsfix:recipes/kneading/doughball.json",
+    "op": "replace",
+    "path": "/3/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-dough",
+    "value": {"morecropsfix:flour-oat" : "morecropsfix:shapes/item/food/bread/flaxbread-doughball.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-partbaked",
+    "value": {"morecropsfix:flour-oat" : "morecropsfix:shapes/item/food/bread/flaxbread-partbakedball.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-bread",
+    "value": {"morecropsfix:flour-oat" : "morecropsfix:shapes/item/food/bread/flaxbread-breadball.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-charred",
+    "value": {"morecropsfix:flour-oat" : "morecropsfix:shapes/item/food/bread/flaxbread-charredball.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {"morecropsfix:flour-oat" : { saturation: 100, foodcategory: "Grain" }},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+]
