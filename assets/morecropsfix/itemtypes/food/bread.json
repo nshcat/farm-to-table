@@ -14,12 +14,24 @@
 			"states": [ "partbaked", "perfect", "charred" ]
 		}
 	],
-	"shape": { "base": "morecropsfix:item/food/bread/bread/" },
+	"shape": { "base": "morecropsfix:item/food/bread/bread" },
 	"texturesbytype": {
-		"*-partbaked": { "bread": { "base": "morecropsfix:item/food/grain/{type}bread-partbaked" } },
-		"*-perfect": { "bread": { "base": "morecropsfix:item/food/grain/{type}bread-perfect" } },
-		"*-charred": { "bread": { "base": "morecropsfix:item/food/grain/{type}bread-charred" } }
-	},
+		"*-partbaked": {
+			"bread": {
+				"base": "item/food/grain/{type}bread-partbaked"
+			}
+		},
+		"*-perfect": {
+				"bread": {
+					"base": "item/food/grain/{type}bread-perfect"
+				}
+			},
+		"*-charred": {
+				"bread": {
+					"base": "item/food/grain/{type}bread-charred"
+				}
+			}
+		},
 	"creativeinventory": {
 		"general": [ "*" ],
 		"items": [ "*" ]
