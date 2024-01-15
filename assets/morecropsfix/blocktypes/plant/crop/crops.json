@@ -139,7 +139,7 @@
   },
   "rainPermeable": false,
   "dropsByType": {
-    "*beet-4": [
+    "crop-beet-4": [
       {
         "type": "item",
         "code": "morecropsfix:seeds-beet",
@@ -154,7 +154,7 @@
         }
       }
     ],
-    "*beet-5": [
+    "crop-beet-5": [
       {
         "type": "item",
         "code": "morecropsfix:seeds-beet",
@@ -400,7 +400,7 @@
     ]
   },
   "cropPropsByType": {
-    "*beet*": {
+    "crop-beet*": {
       "requiredNutrient": "P",
       "nutrientConsumption": 31,
       "growthStages": 5,
