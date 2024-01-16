@@ -289,9 +289,9 @@
       },
       {
         "type": "item",
-        "code": "game:vegetable-bellpepper",
+        "code": "morecropsfix:vegetable-bellpepper",
         "quantity": {
-          "avg": 6,
+          "avg": 7,
           "var": 2
         }
       }
@@ -321,7 +321,7 @@
         "type": "item",
         "code": "morecropsfix:vegetable-potato",
         "quantity": {
-          "avg": 6,
+          "avg": 7,
           "var": 1
         }
       }

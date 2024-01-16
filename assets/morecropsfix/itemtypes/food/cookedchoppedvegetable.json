@@ -4,7 +4,7 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": [ "potato", "yam", "cauliflower", "corn", "beet", "eggplant", "jalapeno", "pickledpotato", "pickledyam", "pickledcauliflower", "pickledbeet", "pickledeggplant", "pickledjalapeno" ]
+			"states": [ "bellpepper", "potato", "yam", "cauliflower", "corn", "beet", "eggplant", "jalapeno", "pickledpotato", "pickledyam", "pickledcauliflower", "pickledbeet", "pickledeggplant", "pickledjalapeno" ]
 		},
 		{
 			"code": "state",
@@ -515,6 +515,24 @@
 	},
 	"materialDensity": 600,
 	"guiTransformByType": {
+		"*bellpepper*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": -37,
+				"y": 135,
+				"z": -155
+			},
+			"origin": {
+				"x": 0.53,
+				"y": 0.07,
+				"z": 0.5
+			},
+			"scale": 3.9
+		},
 		"*-potato-*": {
 			"translation": {
 				"x": 0,
@@ -752,6 +770,24 @@
 
 	},
 	"fpHandTransformByType": {
+		"*bellpepper*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 45,
+				"y": 47,
+				"z": -30
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.3,
+				"z": 0.5
+			},
+			"scale": 2.5
+		},
 		"*": {
 			"translation": {
 				"x": 0,
@@ -772,6 +808,24 @@
 		}
 	},
 	"tpHandTransformByType": {
+		"*bellpepper*": {
+			"translation": {
+				"x": -0.6,
+				"y": -0.18,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": -42
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.8
+		},
 		"*": {
 			"translation": {
 				"x": -0.6,
@@ -792,6 +846,24 @@
 		}
 	},
 	"groundTransformByType": {
+		"*bellpepper*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 5.3
+		},
 		"*": {
 			"origin": {
 				"x": 0.47,

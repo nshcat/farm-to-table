@@ -4,7 +4,7 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": [ "pickledbeet", "pickledcauliflower", "pickledeggplant", "pickledjalapeno", "pickledpotato", "pickledyam" ]
+			"states": [ "pickledbellpepper", "pickledbeet", "pickledcauliflower", "pickledeggplant", "pickledjalapeno", "pickledpotato", "pickledyam" ]
 		}
 	],
 	"attributesByType": {
@@ -114,6 +114,12 @@
 	},
 	"materialDensity": 600,
 	"guiTransformByType": {
+		"*-pickledbellpepper": {
+			"translation": { "x": 3, "y": 6, "z": 0 },
+			"rotation": { "x": -37, "y": 135, "z": -155 },
+			"origin": { "x": 0.5, "y": 0.15, "z": 0.5 },
+			"scale": 3
+		},
 		"*-pickledbeet": {
 			"rotation": {
 				"x": -37,
@@ -186,6 +192,12 @@
 		}
 	},
 	"fpHandTransformByType": {
+		"*-pickledbellpepper": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 45, "y": 47, "z": -30 },
+			"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+			"scale": 1.9
+		},
 		"*-pickledcauliflower": {
 			"rotation": {
 				"x": 51,
@@ -209,6 +221,12 @@
 		}
 	},
 	"tpHandTransformByType": {
+		"*-pickledbellpepper": {
+			"translation": { "x": -0.8, "y": -0.18, "z": -0.7 },
+			"rotation": { "x": 0, "y": 0, "z": -76 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.69
+		},
 		"*-pickledcauliflower": {
 			"translation": {
 				"x": -0.7,

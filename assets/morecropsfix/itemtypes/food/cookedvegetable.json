@@ -4,7 +4,7 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": [ "potato", "yam", "cauliflower", "corn", "beet", "eggplant", "jalapeno", "pickledpotato", "pickledyam", "pickledcauliflower", "pickledbeet", "pickledeggplant", "pickledjalapeno" ]
+			"states": [ "bellpepper", "pickledbellpepper", "potato", "yam", "cauliflower", "corn", "beet", "eggplant", "jalapeno", "pickledpotato", "pickledyam", "pickledcauliflower", "pickledbeet", "pickledeggplant", "pickledjalapeno" ]
 		},
 		{
 			"code": "state",
@@ -12,6 +12,7 @@
 		}
 	],
 	"shapeByType": {
+		"*bellpepper*": { "base": "morecropsfix:item/food/pickledvegetable/pickledbellpepper" },
 		"*-pickled*": { "base": "morecropsfix:item/food/pickledvegetable/{type}" },
 		"*": { "base": "morecropsfix:item/crop/vegetable/{type}" }
 	},
@@ -577,6 +578,12 @@
 		}
 	},
 	"guiTransformByType": {
+		"@*-(bellpepper-partbaked|bellpepper-perfect|bellpepper-charred|pickledbellpepper-partbaked|pickledbellpepper-perfect|pickledbellpepper-charred)": {
+			"translation": { "x": 3, "y": 6, "z": 0 },
+			"rotation": { "x": -37, "y": 135, "z": -155 },
+			"origin": { "x": 0.5, "y": 0.15, "z": 0.5 },
+			"scale": 3
+		},
 		"@*-(yam-partbaked|yam-perfect|yam-charred|pickledyam-partbaked|pickledyam-perfect|pickledyam-charred)": {
 			"rotation": {
 				"x": -37,
@@ -675,6 +682,12 @@
 		}
 	},
 	"fpHandTransformByType": {
+		"@*-(bellpepper-partbaked|bellpepper-perfect|bellpepper-charred|pickledbellpepper-partbaked|pickledbellpepper-perfect|pickledbellpepper-charred)": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 45, "y": 47, "z": -30 },
+			"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+			"scale": 1.9
+		},
 		"@*-(potato-partbaked|potato-perfect|potato-charred|pickledpotato-partbaked|pickledpotato-perfect|pickledpotato-charred)": {
 			"rotation": {
 				"x": 45,
@@ -763,6 +776,12 @@
 		}
 	},
 	"tpHandTransformByType": {
+		"@*-(bellpepper-partbaked|bellpepper-perfect|bellpepper-charred|pickledbellpepper-partbaked|pickledbellpepper-perfect|pickledbellpepper-charred)": {
+			"translation": { "x": -0.8, "y": -0.18, "z": -0.7 },
+			"rotation": { "x": 0, "y": 0, "z": -76 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.69
+		},
 		"@*-(corn-partbaked|corn-perfect|corn-charred)": {
 			"translation": {
 				"x": -0.6,

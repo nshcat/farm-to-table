@@ -3,7 +3,7 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": [ "potato", "yam", "cauliflower", "corn", "beet", "eggplant", "jalapeno", "pickledpotato", "pickledyam", "pickledcauliflower", "pickledbeet", "pickledeggplant", "pickledjalapeno" ]
+			"states": [ "bellpepper", "pickledbellpepper", "potato", "yam", "cauliflower", "corn", "beet", "eggplant", "jalapeno", "pickledpotato", "pickledyam", "pickledcauliflower", "pickledbeet", "pickledeggplant", "pickledjalapeno" ]
 		}
 	],
 	"shape": {
@@ -242,7 +242,7 @@
 		"*": [
 			{
 				"type": "Perish",
-				"freshHours": { "avg": 252 },
+				"freshHours": { "avg": 100 },
 				"transitionHours": { "avg": 48 },
 				"transitionedStack": {
 					"type": "item",
@@ -362,6 +362,24 @@
 			},
 			"scale": 3.3
 		},
+		"*-bellpepper": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": -37,
+				"y": 135,
+				"z": -155
+			},
+			"origin": {
+				"x": 0.53,
+				"y": 0.07,
+				"z": 0.5
+			},
+			"scale": 3.9
+		},
 		"*-jalapeno": {
 			"translation": {
 				"x": 3,
@@ -469,6 +487,24 @@
 				"z": 0.5
 			},
 			"scale": 3.3
+		},
+		"*-pickledbellpepper": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": -37,
+				"y": 135,
+				"z": -155
+			},
+			"origin": {
+				"x": 0.53,
+				"y": 0.07,
+				"z": 0.5
+			},
+			"scale": 3.9
 		},
 		"*-pickledjalapeno": {
 			"translation": {
@@ -597,6 +633,42 @@
 				"z": 0.5
 			},
 			"scale": 1.9
+		},
+		"*-bellpepper": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 45,
+				"y": 47,
+				"z": -30
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.3,
+				"z": 0.5
+			},
+			"scale": 2.5
+		},
+		"*-pickledbellpepper": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 45,
+				"y": 47,
+				"z": -30
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.3,
+				"z": 0.5
+			},
+			"scale": 2.5
 		},
 		"*-jalapeno": {
 			"translation": {
@@ -817,6 +889,42 @@
 			"scale": 0.8
 		},
 		"*-eggplant": {
+			"translation": {
+				"x": -0.6,
+				"y": -0.18,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": -42
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.8
+		},
+		"*-bellpepper": {
+			"translation": {
+				"x": -0.6,
+				"y": -0.18,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": -42
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.8
+		},
+		"*-pickledbellpepper": {
 			"translation": {
 				"x": -0.6,
 				"y": -0.18,
@@ -1069,6 +1177,42 @@
 				"z": 0.5
 			},
 			"scale": 4.3
+		},
+		"*-bellpepper": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 5.3
+		},
+		"*-pickledbellpepper": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 5.3
 		},
 		"*-jalapeno": {
 			"translation": {

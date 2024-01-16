@@ -35,6 +35,161 @@
     "height": 2,
     "output": { type: "item", code: "morecropsfix:choppedvegetable-potato" }
 },
+
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "morecropsfix:vegetable-bellpepper",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "morecropsfix:choppedvegetable-bellpepper" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "morecropsfix:vegetable-bellpepper",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "morecropsfix:choppedvegetable-bellpepper" }
+},
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "morecropsfix:pickledvegetable-pickledbellpepper",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "morecropsfix:choppedvegetable-pickledbellpepper" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "morecropsfix:pickledvegetable-pickledbellpepper",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "morecropsfix:choppedvegetable-pickledbellpepper" }
+},
+
+
+
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "morecropsfix:cookedvegetable-bellpepper-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "morecropsfix:cookedchoppedvegetable-bellpepper-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "morecropsfix:cookedvegetable-bellpepper-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "morecropsfix:cookedchoppedvegetable-bellpepper-perfect" }
+},
+
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "morecropsfix:cookedvegetable-pickledbellpepper-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "morecropsfix:cookedchoppedvegetable-pickledbellpepper-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "morecropsfix:cookedvegetable-pickledbellpepper-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "morecropsfix:cookedchoppedvegetable-pickledbellpepper-perfect" }
+},
+
+
 {
     "ingredientPattern": "K,V",
     recipeGroup: 1,
