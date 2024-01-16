@@ -102,8 +102,8 @@
     "*pepperbell-7": { "base": "block/plant/crop/bellpepper/bellpepper-7" },
     "*pepperbell-8": { "base": "block/plant/crop/bellpepper/bellpepper-8" },
     "*pepperbell-9": { "base": "block/plant/crop/bellpepper/bellpepper-10" },
-    "*pepperbell-10": { "base": "block/plant/crop/bellpepper/bellpepper-10" },
-    "*pepperbell-11": { "base": "block/plant/crop/bellpepper/bellpepper-fullgrown" },
+    "*pepperbell-10": { "base": "block/plant/crop/bellpepper/bellpepper-fullgrown" },
+    "*pepperbell-11": { "base": "block/plant/crop/bellpepper/bellpepper-fruiting" },
     "*pepperbell*": { "base": "block/plant/crop/bellpepper/bellpepper-small" },
     "*": { "base": "morecropsfix:block/plant/crop/{vegetable}/stage{stage}" }
   },
